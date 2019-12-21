@@ -7,14 +7,6 @@
 composer require echozzy/socialite
 ```
 
-在 `config/app.php` 注册服务器提供者:
-```
-/*
- * Package Service Providers...
- */
-Zzy\Socialite\SociateServiceProvider::class,
-```
-
 发布配置文件到 `config` 目录下:
 ```
 php artisan vendor:publish --provider="Zzy\Socialite\SociateServiceProvider"
