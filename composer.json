@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Zzy\\Socialite\\SociateServiceProvider"
+                "Zzy\\Socialite\\SociateServiceProvider"
             ]
         }
     }
