@@ -15,13 +15,13 @@
     },
     "autoload": {
 		"psr-4": {
-			"Zzy\\Socialite\\": "src"
+			"Zzy\\Sociate\\": "src"
 		}
 	},
     "extra": {
         "laravel": {
             "providers": [
-                "Zzy\\Socialite\\SociateServiceProvider"
+                "Zzy\\Sociate\\SociateServiceProvider"
             ]
         }
     }
