@@ -9,7 +9,7 @@ composer require echozzy/socialite
 
 发布配置文件到 `config` 目录下:
 ```
-php artisan vendor:publish --provider="Zzy\Socialite\SociateServiceProvider"
+php artisan vendor:publish --provider="Zzy\Sociate\SociateServiceProvider"
 ```
 
 在 `.env` 文件添加第三方应用配置信息,不需要的可以不用添加:
@@ -101,7 +101,7 @@ Route::get('/auth', 'TestController@auth');
 
 namespace App\Http\Controllers;
 
-use Zzy\Socialite\Sociate;
+use Zzy\Sociate\Sociate;
 
 class TestController extends Controller
 {
@@ -214,7 +214,7 @@ public function baidu()
 namespace App\Http\Controllers\Oauth;
 
 use App\Http\Controllers\Controller;
-use Zzy\Socialite\Sociate;
+use Zzy\Sociate\Sociate;
 
 class OauthController extends Controller
 {
